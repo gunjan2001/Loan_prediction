@@ -8,7 +8,7 @@ from sklearn.preprocessing import StandardScaler
 
 app = Flask(__name__)
 
-model = pickle.load(open('Loan_Prediction.pkl', 'rb'))
+model = pickle.load(open('Loan_prediction.pkl', 'rb'))
  
 @app.route('/',methods=['GET'])
 
